@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <button id="viewHighscores">View Highscores</button>
+      <h5 id="timerCount">Time: 0</h5>
+    </header>
+
+    <div class="hide" id="quizContainer">
+      <div id="questionContainer"></div>
+      <button class="btnEl" id="choice1"></button>
+      <button class="btnEl" id="choice2"></button>
+      <button class="btnEl" id="choice3"></button>
+      <button class="btnEl" id="choice4"></button>
+    </div>
+
+    <div id="quizRules">
+      <p>
+        Welcome to my SpongeBob Quiz! When you start the Quiz, you will have
+        <button id="startBtn">Start Quiz</button>
+      </p>
+    </div>
+
+    <div class="hide" id="resultsContainer">
+      <h2>All done!</h2>
+      <form action="">
+        <input
+          type="text"
+          placeholder="Enter your initials"
+          id="initialsInput"
+        />
+        <button type="submit" id="submitScore">Submit Score</button>
+      </form>
+
+      <button id="resetQuiz">Again?</button>
+      <button id="clearScore">Clear Scores</button>
+      <ol id="olEl"></ol>
+    </div>
+
+    <script src="./Assets/script.js"></script>
+  </body>
+</html>
